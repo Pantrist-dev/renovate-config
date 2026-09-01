@@ -16,7 +16,6 @@
       "description": "Do not upgrade typescript to v7 yet (native Go-based compiler rewrite, wait for ecosystem to stabilize)",
       "matchManagers": ["npm"],
       "matchPackageNames": ["typescript"],
-      "matchUpdateTypes": ["major"],
       "allowedVersions": "<7.0.0"
     }
   ]
