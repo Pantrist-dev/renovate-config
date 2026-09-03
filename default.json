@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":dependencyDashboard", "security:minimumReleaseAgeNpm"],
+  "extends": ["config:recommended", ":dependencyDashboard", "security:minimumReleaseAgeNpm", ":semanticCommits"],
   "packageRules": [
     {
       "description": "Group all GitHub Actions updates into a single PR",
